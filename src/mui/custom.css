@@ -1,0 +1,55 @@
+.box{
+  background-color: aqua;
+}
+.textField{
+  margin: 0 !important;
+}
+.jobListFilter{
+  background-color:#daf0ff;
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+.jobListFilterField{
+  background-color:#ffffff;
+}
+.jobListTitles{
+  background-color: #bfe3fb;
+  margin-top: 0px!important;
+  padding-bottom: 4px;
+}
+.jobListLine{
+  margin-top:8px;
+}
+.jobListLine > div{
+  background-color:#eee;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.jobListLine:nth-child(2n) > div{
+  background-color:#ffffff;
+}
+.priorityBox{
+  max-width: 100px;
+  min-width: 60px;
+  margin:0 auto 7px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 0;
+}
+.priority-Urgent{
+  background-color: rgb(255, 64, 64);
+}
+.priority-Regular{
+  background-color: rgb(255, 185, 55);
+}
+.priority-Trivial{
+  background-color: rgb(47, 134, 255);
+}
+.footer{
+  background-color: rgb(220 235 255);
+  text-align: right;
+  margin-left: -8px;
+  padding: 5px;
+}
+.footer > span{ font-size: 12px; padding-right: 5px;}
